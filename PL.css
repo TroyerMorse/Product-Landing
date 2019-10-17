@@ -1,0 +1,182 @@
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 50%;
+}
+
+header {
+  margin-top: 50px;
+}
+
+#navv-barr {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  background: white;
+  border: 2px;
+  border-style: groove;
+  border-color: blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  color: red;
+  text-decoration: none;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  background-color: red;
+  color: yellow;
+  background: red;
+}
+
+
+#header-img {
+  text-align: right;
+  left: 40%;
+  width: 250px;
+}
+
+body {
+  text-align: center;
+  background-image: url(http://hdqwalls.com/wallpapers/colorado-mountains-4k.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#title {
+  font-size: 50px;
+  color: black;
+}
+
+.small-title {
+  font-size: 32px;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.words {
+  font-size: 16px;
+}
+
+#Home {
+  width: 50%;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+#Key-Figures {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#flex {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.guys {
+  font-size: 24px;
+}
+
+.date {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h1 {
+  border-radius: 5px;
+  border-width: medium;
+  border-style: groove;
+  background-color: white;
+  border-color: blue;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+h2 {
+  border-radius: 5px;
+  border-width: medium;
+  border-style: groove;
+  background-color: white;
+  border-color: red;
+}
+
+
+#description {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#Home {
+  border-radius: 5px;
+  border-width: medium;
+  border-style: groove;
+  background-color: white;
+  border-color: yellow;
+}
+
+.superstyle {
+  border-radius: 5px;
+  border-width: medium;
+  border-style: groove;
+  background-color: white;
+  border-color: yellow;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.linelist {
+  list-style: none;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border-radius: 5px;
+  padding-right: 3px;
+  border-width: medium;
+  border-style:groove;
+  background-color: white;
+  border-color: yellow;
+}
+
+
+form {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 5px;
+  border: 5px;
+  border-width: thick;
+  border-style: ridge;
+  border-color: blue;
+  background-color: white;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Free Code Camp does not read these two tests when they are on my linked CSS page. I solved it by putting it all on a single file to make the FCC read it and pass the tests -->
+  <style>
+  @media screen and (max-height: 1000px) {
+    .words {
+      font-size: 12px;
+    }
+
+  }
+
+  #flex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  </style>
+  <head>
+    <link rel="stylesheet" href="PL.css"</link>
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/distressed-colorado-flag-jon-neidert.jpg"></img>
+      <nav id="nav-bar" class="navbar">
+        <ul id="navv-barr">
+          <li>
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Key-Figures">Key Figures</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Timeline">Timeline</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Video-Here">Video</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#Come-Out">Come out!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 id="title">Colorado</h1>
+    <h2 id="description" class="small-title">Nil Sine Numine - Nothing Without Divine Providence</h2>
+    <p id="Home" class="words">Colorado is a wonderful place. Fiery sunsets over towering purple mountain majesties to the west, soft and spectacular sunrises to the east. Mountains next to rolling hills of golden grain. Snow capped peaks looking over the valleys below. There is no place with the feel, the look, the atmosphere of Colorado.</p>
+    <h2 id="Key-Figures" class="small-title">Key Figures</h2>
+    <div id="flex">
+      <div class="superstyle">
+        <p class="words" id="Key-Figures">
+          <div class="guys">General William Jackson Palmer</div>
+          <div class="date"> - 1836-1909 - </div>
+          Was awarded the Medal of Honor in the Civil War. Began work on railroads in the west. Founded Colorado Springs in 1871 which began to build the western railroad's influence as a major stop for mining in the mountains being sold in the East.
+        </p>
+      </div>
+      <div class="superstyle">
+        <p class="words">
+          <div class="guys">William H. Larimer</div>
+          <div class="date"> - 1809-1875 - </div>
+          Was an early pioneer to the west. Recognized the incredible potential in Colorado for making money and planted the city of Denver as an access point to the riches of the new found lands.
+        </p>
+        </div>
+      <div class="superstyle">
+        <p class="words">
+          <div class="guys">Helen Hunt</div>
+          <div class="date"> - 1830-1885 - </div>
+          Writer that became a strong activist for better relations with the Native Americans living in the Colorado area. Provided education and refuge for peoples being ran out of their homes. Honored by Helen Hunt Falls in North Cheyenne Canon.
+        </p>
+      </div>
+
+    <h2 id="Timeline" class="small-title">Timeline</h2>
+    <ul class="linelist">
+      <li> 1803 - USA buys the Louisiana Purchase from Napolean Bonaparte and the French </li>
+      <li> 1806 - Zebulon Pike and his expedition lay eyes on the "Mexican Mountains" and attempt to climb "the highest peak on earth" (actually Pikes Peak)</li>
+      <li> 1858 - News of Gold and Silver cause the Pikes Peak or Bust Gold Rush</li>
+      <li> 1858 - City of Denver is founded </li>
+      <li> 1864 - Sand Creek Massacre causes tensions to explode between Native Americans and Settlers </li>
+      <li> 1876 - The Centennial State is voted to join the Union </li>
+      <li> 1893 - The Silver Purchase Act is repealed leaving Colorado's largest economic grandstand broken </li>
+      <li> NOW - You come help in sitting in the beauty of Colorado!</li>
+    </ul>
+    <h2 class="small-title" id="Video-Here">Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_7Z-JSKkg_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <p id="Come-Out">Enter your email to begin the application to come to Colorado!</p>
+      <input type="email" name="email" placeholder="Enter Your Email" id="email" class="email-submit" required>
+      <input type="submit" id="submit" class="email-button"></input>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
